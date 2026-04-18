@@ -18,6 +18,8 @@ try {
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "<p style='color: green;'>✅ Connected to MySQL successfully!</p>";
 
+	$pdo->exec("DROP TABLE users");
+
     // Create a test table and insert data
     $pdo->exec("CREATE TABLE IF NOT EXISTS users (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -63,5 +65,6 @@ echo "<h2>Access Points</h2>";
 echo "<ul>";
 echo "<li><a href='http://localhost:8080' target='_blank'>Web Application (Port 8080)</a></li>";
 echo "<li><a href='http://localhost:8081' target='_blank'>phpMyAdmin (Port 8081)</a></li>";
+echo "<li><a href='http://localhost:8080/mysqli.php' target='_blank'>MySQLi Test</a></li>";
 echo "</ul>";
 ?>

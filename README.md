@@ -18,4 +18,4 @@ You can see if it works by navigating to the following links in your browser:
 **PHPMyAdmin:** [http://localhost:8081](http://localhost:8081)
 
 ## Attribution
-The initial code for this mostly came from the Medium article [*Docker Compose for Development: Setting Up a Complete LAMP Stack*](https://dev.to/caffinecoder54/docker-compose-for-development-setting-up-a-complete-lamp-stack-16h2) by **Purushotam Adhikari**. Check it out if you also want to build something similar.
+The initial code for this primarily came from the Medium article [*Docker Compose for Development: Setting Up a Complete LAMP Stack*](https://dev.to/caffinecoder54/docker-compose-for-development-setting-up-a-complete-lamp-stack-16h2) by **Purushotam Adhikari**. Check it out if you want to build something similar, and check out his other articles!
