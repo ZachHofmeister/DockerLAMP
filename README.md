@@ -8,6 +8,7 @@ I am using this repo to learn more about Docker and Docker Compose, and as a sta
 
 ```bash
 git clone https://github.com/ZachHofmeister/DockerLAMP.git
+cd ./DockerLAMP
 docker-compose up -d --build
 ```
 
