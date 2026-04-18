@@ -13,7 +13,7 @@ docker-compose up -d --build
 
 You can see if it works by navigating to the following links in your browser:
 
-**Main Page:** [http://localhost:8080/index.php](http://localhost:8080/index.php)
+**Main Page:** [http://localhost:8080](http://localhost:8080)
 
 **PHPMyAdmin:** [http://localhost:8081](http://localhost:8081)
 
